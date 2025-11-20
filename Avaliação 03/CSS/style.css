@@ -1,0 +1,391 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #0d47a1, #42a5f5);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body > h2,
+.topo-logo {
+    margin: 0;
+    padding: 15px 25px;
+    color: #ffffff;
+    font-size: 26px;
+}
+
+body > h2 a,
+.topo-logo a {
+    color: #ffffff;
+}
+
+.menu-principal {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    padding: 10px 25px;
+    margin: 0;
+    list-style: none;
+
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+}
+
+.barra-pesquisa {
+    margin-left: auto;  
+    display: flex;
+    align-items: center;
+}
+
+.barra-pesquisa input {
+    margin: 0;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+body > div:first-of-type,
+.menu-principal {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 10px 25px;
+    margin: 0;
+
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+}
+
+body > div:first-of-type li,
+.menu-principal .menu-item {
+    list-style: none;
+}
+
+body > div:first-of-type a,
+.menu-principal a {
+    color: #e0e0ff;
+    font-size: 14px;
+}
+
+body > div:first-of-type a:hover,
+.menu-principal a:hover {
+    text-decoration: underline;
+}
+
+main,
+.conteudo-principal {
+    max-width: 1000px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+
+    color: #333333;
+}
+
+main h2,
+.conteudo-principal h2 {
+    margin-top: 0;
+}
+
+main > div > div,
+.cards-container .card {
+    background: #f7f9ff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+
+    display: inline-block;
+    width: calc(33.333% - 30px);
+    vertical-align: top;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+main > div > div img,
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+main > div > div h2,
+.card h2 {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+main > div > div p,
+.card p {
+    margin: 4px 0;
+    font-size: 14px;
+}
+
+main > div > div span,
+.card span {
+    color: #f1c40f;
+    font-size: 14px;
+}
+
+span input[type="text"],
+input[type="text"][name="Pesquisar"],
+.barra-pesquisa input[type="text"] {
+    margin: 10px 25px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+
+body > div:first-of-type li {
+    list-style: none;
+}
+
+body > div:first-of-type a {
+    color: #e0e0ff;
+    font-size: 14px;
+}
+
+body > div:first-of-type a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    max-width: 1000px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+
+    color: #333333;
+}
+
+main h2 {
+    margin-top: 0;
+}
+
+
+main > div > div {
+    background: #f7f9ff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+
+    display: inline-block;
+    width: calc(33.333% - 30px);
+    vertical-align: top;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+main > div > div img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+main > div > div h2 {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+main > div > div p {
+    margin: 4px 0;
+    font-size: 14px;
+}
+
+main > div > div span {
+    color: #f1c40f;
+    font-size: 14px;
+}
+
+
+span input[type="text"],
+input[type="text"][name="Pesquisar"] {
+    margin: 10px 25px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+form {
+    margin-top: 10px;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+
+    border-radius: 6px;
+    border: 1px solid #cccccc;
+    font-size: 14px;
+}
+
+form textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+
+form label {
+    font-size: 14px;
+    margin-bottom: 3px;
+    display: block;
+}
+
+label input[type="radio"] {
+    width: auto;
+    margin-right: 4px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+    background: linear-gradient(135deg, #1565c0, #42a5f5);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button:hover {
+    filter: brightness(0.9);
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+thead {
+    background: linear-gradient(135deg, #1565c0, #42a5f5);
+    color: #ffffff;
+}
+
+thead th {
+    padding: 8px;
+}
+
+tbody td {
+    padding: 6px 8px;
+    border: 1px solid #dddddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f5f7ff;
+}
+
+table button {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+
+body > div:nth-of-type(2) {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+body > div:nth-of-type(2) h2 {
+    text-align: center;
+}
+
+
+footer {
+    max-width: 1000px;        
+    margin: 20px auto;    
+    padding: 20px 25px;
+
+    background: #ffffff;       
+    border-radius: 12px;       
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+
+    color: #333333;
+}
+
+footer h2 {
+    margin-top: 0;
+    color: #333333;
+}
+
+footer p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #555555;
+}
+
+footer .social {
+    margin-top: 10px;
+    display: flex;
+    gap: 12px;
+}
+
+footer .social a {
+    font-size: 20px;
+    color: #333333;
+}
+
+footer .social a:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+
+    .menu-principal {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .barra-pesquisa {
+        margin-left: 0;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .barra-pesquisa input {
+        width: 100%;
+    }
+    main,
+    .conteudo-principal {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .cards-container .card,
+    main > div > div {
+        width: 100%;
+        height: auto;   
+    }
+}
