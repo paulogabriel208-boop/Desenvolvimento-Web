@@ -1,0 +1,15 @@
+article {
+    background-color: var(--cor-branco);
+    min-height: 400px;
+    padding: 25px;
+    flex-grow: 3;
+}
+
+section {
+    background-color: #f9f9f9;
+    min-height: 100px;
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px dashed;
+    border-radius: 5px;
+}

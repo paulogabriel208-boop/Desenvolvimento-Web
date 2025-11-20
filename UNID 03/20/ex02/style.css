@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+background-color:white;
+font-family: cursive;
+}
+
+.main {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    height: 500px;
+    background-color: #fff;
+}
+.fonte01 {
+    font-family: "Montserrat", serif;
+    margin: 10px 0;
+}
+
+.fonte02 {
+    font-family: "Open sans", serif;
+    margin: 10px 0;
+}

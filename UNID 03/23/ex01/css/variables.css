@@ -1,0 +1,10 @@
+:root {
+    --font-primary: 'Ubuntu', sans-serif;
+
+    /* Cores */
+    --cor-primaria: #2c3e50;
+    --cor-secundaria: #34495e;
+    --cor-destaque: #f1c40f;
+    --cor-fundo: #ecf0f1;
+    --cor-branco: #ffffff;
+}
