@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    border: 1px solid black;
+    text-align: justify;
+    margin: 20px auto;
+    font-size: 1.3rem;
+    width: 90%;
+    color: #fff;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+@media (max-width: 460px) {
+    main {
+        background-color: coral;
+        font-size: 1rem;
+        width: 90%;
+    }
+}
+
+@media (min-width: 461px) and (max-width: 1020px) {
+    main {
+        background-color: crimson;
+    }
+}
+
+@media (min-width: 1024px) {
+    main {
+        color: cornflowerblue;
+    }
+}
+
+@media (min-width: 1920px) {
+    main {
+        font-size: 20px;
+        color: black;
+    }
+}
