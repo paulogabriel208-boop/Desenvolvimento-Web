@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #2a5889;
+}
+.banner {
+    width: 100%;
+    height: 450px;
+    background-image: url('banner03.png');
+    margin:auto
+}

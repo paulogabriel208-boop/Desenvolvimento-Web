@@ -1,0 +1,16 @@
+h1, h2 {
+    text-align: center;
+    }
+table {
+    width: 60%;
+    margin: 0 auto;
+}
+table, td, th {
+    border: 1px solid black;
+    text-align: center;
+    }
+.coluna01 {
+    background-color: tomato;
+    color: white;
+    font-weight: 800;
+}

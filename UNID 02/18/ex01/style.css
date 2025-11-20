@@ -1,0 +1,28 @@
+*{  margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif; }
+
+h1,h2{
+    margin: 58px auto;
+    text-align: center;}
+
+p{  margin: 20px auto;
+    padding: 20px;
+    border: 1px solid blueviolet;
+    width:50%;}
+
+.text{
+    line-height:30px;
+    text-indent:50px;
+    text-transform:uppercase;
+    letter-spacing:10px;
+    background-color:blueviolet;
+    color: #fff;}
+
+.text span {
+    color: coral;
+    font-weight: bold;
+    Font-size: 32px;
+    text-transform: lowercase;
+    text-decoration: underline;}
