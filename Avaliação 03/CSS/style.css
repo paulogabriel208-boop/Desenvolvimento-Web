@@ -94,14 +94,8 @@ main,
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
     color: #333333;
-    flex: 1;
 }
 
-
-main h2,
-.conteudo-principal h2 {
-    margin-top: 0;
-}
 
 main > div > div,
 .cards-container .card {
